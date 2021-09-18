@@ -1,0 +1,43 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://www.baeldung.com/springsoap/gen">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getProductRequest>
+            <gs:productnumber>A0002</gs:productnumber>
+        </gs:getProductRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+<!--
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Header/>
+<SOAP-ENV:Body>
+    <ns2:getProductResponse xmlns:ns2="http://www.baeldung.com/springsoap/gen">
+        <ns2:product>
+            <ns2:productnumber>A0001</ns2:pro>
+            <ns2:price>234.0</ns2:price>
+            <ns2:description>The best product from columbus</ns2:description>
+            <ns2:stock>
+                <ns2:quantity>1000</ns2:quantity>
+                <ns2:locationcode>Chicago</ns2:locationcode>
+            </ns2:stock>
+        </ns2:product>
+    </ns2:getProdu>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>-->
+
+<!--<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">-->
+<!--<SOAP-ENV:Header/>-->
+<!--<SOAP-ENV:Body>-->
+<!--    <ns2:getProductResponse xmlns:ns2="http://www.baeldung.com/springsoap/gen">-->
+<!--        <ns2:product>-->
+<!--            <ns2:productnumber>A0002</ns2:pro>-->
+<!--            <ns2:price>6778.0</ns2:price>-->
+<!--            <ns2:description>Priority product from chicago</ns2:description>-->
+<!--            <ns2:stock>-->
+<!--                <ns2:quantity>2000</ns2:quantity>-->
+<!--            </ns2:stock>-->
+<!--        </ns2:product>-->
+<!--    </ns2:getProductResponse>-->
+<!--</SOAP-ENV:Body>-->
+<!--</SOAP-ENV:Envelo>-->
